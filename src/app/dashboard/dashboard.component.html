@@ -1,0 +1,5 @@
+<p>dashboard works!</p>
+<div *ngFor="let pet of petService.pets | async">
+    <div> {{pet.id}} </div>
+    <div> {{pet.name}} </div>
+</div>
